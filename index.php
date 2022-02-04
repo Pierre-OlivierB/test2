@@ -71,7 +71,7 @@
                                 echo '<a class="btn" href="edit.php?id=' . $row['id'] . '">Read</a>'; // un autre td pour le bouton d'edition
                                 echo '</td><p>';
                                 echo '<td>';
-                                echo '<a class="btn btn-success" href="update.php?id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
+                                echo '<a class="btn btn-success" href="read.php?id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
                                 echo '</td><p>';
                                 echo '<td>';
                                 echo '<a class="btn btn-danger" href="delete.php?id=' . $row['id'] . ' ">Delete</a>'; // un autre td pour le bouton de suppression

@@ -130,7 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST)) { // on initialise n
         <p>
 
             <br />
-        <form method="post" action="update.php?id=<?php echo $id; ?>">
+        <form method="post" action="edit.php?id=<?php echo $id; ?>">
 
             <br />
             <div class="control-group <?php echo !empty($nameError) ? 'error' : ''; ?>">
