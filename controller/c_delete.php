@@ -1,6 +1,6 @@
 <?php 
 
-require 'controller/c_database.php';
+require 'model/Database.php';
 
 $id = 0;
 if (!empty($_GET['id'])) {

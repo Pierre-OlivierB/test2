@@ -1,4 +1,4 @@
-<?php include 'controller/c_database.php'; //on inclut notre fichier de connection 
+<?php include 'model/Database.php'; //on inclut notre fichier de connection 
     
     $pdo = Database::connect(); //on se connecte à la base 
     $sql = 'SELECT * FROM user ORDER BY id DESC'; //on formule notre requete  

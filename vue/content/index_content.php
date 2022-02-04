@@ -10,7 +10,7 @@
         <p>
             <br />
         <div class="row">
-            <a href="add_content.php" class="btn btn-success">Ajouter un user</a>
+            <a href="index.php?loc=add" class="btn btn-success">Ajouter un user</a>
             <br />
             <div class="table-responsive">
                 <br />

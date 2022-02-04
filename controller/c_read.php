@@ -1,4 +1,4 @@
-<?php require('controller/c_database.php'); //on appelle notre fichier de config 
+<?php require('model/Database.php'); //on appelle notre fichier de config 
 $id = null;
 if (!empty($_GET['id'])) {
     $id = $_REQUEST['id'];

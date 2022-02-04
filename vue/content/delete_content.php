@@ -19,7 +19,7 @@
 
 
                 <br />
-            <form class="form-horizontal" action="delete.php" method="post">
+            <form class="form-horizontal" action="index.php?loc=delete" method="post">
                 <input type="hidden" name="id" value="<?php echo $id; ?>" />
 
                 Are you sure to delete ?

@@ -17,7 +17,7 @@
         <p>
 
             <br />
-        <form method="post" action="add.php">
+        <form method="post" action="index.php?loc=add">
 
             <br />
             <div class="control-group <?php echo !empty($nameError) ? 'error' : ''; ?>">

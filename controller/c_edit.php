@@ -1,4 +1,4 @@
-<?php require 'controller/c_database.php';
+<?php require 'model/Database.php';
 $id = null;
 if (!empty($_GET['id'])) {
     $id = $_REQUEST['id'];
