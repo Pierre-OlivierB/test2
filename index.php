@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Crud en php</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="vue/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vue/css/responsive.css" rel="stylesheet">
     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-wp-preserve="%3Cscript%20src%3D%22js%2Fbootstrap.js%22%3E%3C%2Fscript%3E" data-mce-resize="false" data-mce-placeholder="1" class="mce-object" width="20" height="20" alt="<script>" title="<script>" />
 </head>
 
@@ -68,10 +68,10 @@
                                 echo '<td>' . $row['metier'] . '</td><p>';
                                 echo '<td>' . $row['url'] . '</td><p>';
                                 echo '<td>';
-                                echo '<a class="btn" href="edit.php?id=' . $row['id'] . '">Read</a>'; // un autre td pour le bouton d'edition
+                                echo '<a class="btn" href="read.php?id=' . $row['id'] . '">Read</a>'; // un autre td pour le bouton d'edition
                                 echo '</td><p>';
                                 echo '<td>';
-                                echo '<a class="btn btn-success" href="read.php?id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
+                                echo '<a class="btn btn-success" href="edit.php?id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
                                 echo '</td><p>';
                                 echo '<td>';
                                 echo '<a class="btn btn-danger" href="delete.php?id=' . $row['id'] . ' ">Delete</a>'; // un autre td pour le bouton de suppression
