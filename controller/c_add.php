@@ -81,4 +81,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST)) { //on initialise no
     }
 }
 ?>
-<?php include('model/m_add.php')  ?>

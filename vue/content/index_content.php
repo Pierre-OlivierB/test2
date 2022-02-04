@@ -10,7 +10,7 @@
         <p>
             <br />
         <div class="row">
-            <a href="m_add.php" class="btn btn-success">Ajouter un user</a>
+            <a href="add_content.php" class="btn btn-success">Ajouter un user</a>
             <br />
             <div class="table-responsive">
                 <br />

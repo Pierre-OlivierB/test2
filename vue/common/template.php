@@ -15,6 +15,9 @@ switch ($loc) {
     case 'read':
         include("vue/content/read_content.php");
         break;
+    case 'add':
+        include("vue/content/add_content.php");
+        break;
     case null:
         include("vue/content/index_content.php");
         break;
