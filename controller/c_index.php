@@ -14,13 +14,13 @@
             echo '<td>' . $row['metier'] . '</td><p>';
             echo '<td>' . $row['url'] . '</td><p>';
             echo '<td>';
-            echo '<a class="btn" href="read.php?id=' . $row['id'] . '">Read</a>'; // un autre td pour le bouton d'edition
+            echo '<a class="btn" href="index.php?loc=read&id=' . $row['id'] . '">Read</a>'; // un autre td pour le bouton d'edition
             echo '</td><p>';
             echo '<td>';
-            echo '<a class="btn btn-success" href="edit.php?id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
+            echo '<a class="btn btn-success" href="index.php?loc=edit&id=' . $row['id'] . '">Update</a>'; // un autre td pour le bouton d'update
             echo '</td><p>';
             echo '<td>';
-            echo '<a class="btn btn-danger" href="delete.php?id=' . $row['id'] . ' ">Delete</a>'; // un autre td pour le bouton de suppression
+            echo '<a class="btn btn-danger" href="index.php?loc=delete&id=' . $row['id'] . ' ">Delete</a>'; // un autre td pour le bouton de suppression
             echo '</td><p>';
             echo '</tr><p>';
         }
