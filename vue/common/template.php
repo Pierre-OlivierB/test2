@@ -7,6 +7,7 @@ switch ($loc) {
         include("vue/content/index_content.php");
         break;
     case 'delete':
+        include('controller/c_delete.php');
         include("vue/content/delete_content.php");
         break;
     case 'edit':
