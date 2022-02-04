@@ -13,6 +13,7 @@ switch ($loc) {
         include("vue/content/edit_content.php");
         break;
     case 'read':
+        include('controller/c_read.php');
         include("vue/content/read_content.php");
         break;
     case 'add':
