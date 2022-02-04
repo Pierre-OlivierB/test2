@@ -1,4 +1,4 @@
-<?php require 'database.php';
+<?php require 'controller/c_database.php';
 
 $id = 0;
 if (!empty($_GET['id'])) {
