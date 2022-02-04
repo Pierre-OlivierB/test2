@@ -1,4 +1,4 @@
-<?php require 'controller/c_database.php';
+<?php require 'c_database.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST)) { //on initialise nos messages d'erreurs; 
     $nameError = '';
     $firstnameError = '';
